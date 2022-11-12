@@ -1,5 +1,5 @@
 # Python_Django
-```python
+
 
 from django import forms
 from .models import Emp
@@ -19,4 +19,3 @@ class EmpForm(forms.ModelForm):
         model=Emp
         fields=['name','emp_id','phone','address',]
 
-```
